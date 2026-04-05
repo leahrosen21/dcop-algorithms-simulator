@@ -1,25 +1,24 @@
 # DCOP Algorithms Simulator
 
-### Overview
+## Overview
 
 This project implements and analyzes distributed multi-agent optimization algorithms in the context of DCOP (Distributed Constraint Optimization Problems).
 We simulate several well-known algorithms and evaluate their performance under different problem structures, focusing on the trade-off between exploration and exploitation.
-
 This was developed as part of a course on distributed systems and optimization. It focuses on decentralized decision-making and coordination between agents under constraints.
 ---
 
-### Implemented Algorithms
+## Implemented Algorithms
 - DSA (Distributed Stochastic Algorithm)
   - Multiple probability configurations (p = 0.2, 0.7, 1.0)
 - MGM (Maximum Gain Messaging)
 - MGM-2
 
 ---
-### Configurations
+## Configurations
 
 The algorithms are evaluated on different environments and problems.
 
-### Problem Types:
+## Problem Types:
 
 ### 1. Sparse Random Graph
 Low connectivity between agents, meaning fewer constraints and weaker dependencies.  
@@ -51,7 +50,7 @@ Each problem varies in:
 
 ---
 
-### Conclusions
+## Conclusions
 
 As detailed in the [project report](Project%20Report%20-%20MAO.pdf),
 
