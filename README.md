@@ -5,7 +5,7 @@ This project implements and analyzes **distributed multi-agent optimization algo
 
 We simulate several well-known algorithms and evaluate their performance under different problem structures, with a focus on the trade-off between **exploration** and **exploitation**.
 
-> Developed as part of a course on distributed systems and optimization, this project explores decentralized decision-making and coordination between agents under constraints.
+> Developed as part of a course on distributed systems and optimization, this project explores decentralized decision-making and coordination between agents under constraints. May 2025.
 
 ---
 
