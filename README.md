@@ -1,6 +1,6 @@
-# 🧠 DCOP Algorithms Simulator
+# DCOP Algorithms Simulator
 
-## 📖 Overview
+## Overview
 This project implements and analyzes **distributed multi-agent optimization algorithms** in the context of **Distributed Constraint Optimization Problems (DCOP)**.
 
 We simulate several well-known algorithms and evaluate their performance under different problem structures, with a focus on the trade-off between **exploration** and **exploitation**.
@@ -9,7 +9,7 @@ We simulate several well-known algorithms and evaluate their performance under d
 
 ---
 
-## ⚙️ Implemented Algorithms
+## Implemented Algorithms
 - **DSA (Distributed Stochastic Algorithm)**  
   - Probability configurations: `p = 0.2, 0.7, 1.0`
 - **MGM (Maximum Gain Messaging)**
@@ -17,7 +17,7 @@ We simulate several well-known algorithms and evaluate their performance under d
 
 ---
 
-## 🧪 Experimental Setup
+## Experimental Setup
 
 ### Problem Types
 
@@ -39,7 +39,7 @@ The objective is **conflict minimization**, rather than complex optimization.
 
 ---
 
-### Key Configuration Parameters
+### Configuration Parameters
 Each problem varies in:
 - **Agent connectivity**
 - **Constraint density**
@@ -47,7 +47,7 @@ Each problem varies in:
 
 ---
 
-### 📊 Problem Configuration Summary
+### Problem Configuration Summary
 
 | Problem Type         | Density (p) | Domain Size | Cost Function                          |
 |---------------------|------------|------------|----------------------------------------|
@@ -73,14 +73,14 @@ As detailed in the [project report](Project%20Report%20-%20MAO.pdf):
 
 ---
 
-## 👥 Contributors
-- **Leah Rosen**
+## Contributors
+- [Leah Rosen](https://github.com/leahrosen21)
 - [Lilach Yosef](https://github.com/LilachYosef)
 - Ofri Ratinsky
 
 ---
 
-## 🔮 Future Work
+## Future Work
 - Asynchronous agent communication  
 - Reinforcement learning-based agents  
 - Real-world applications (e.g., smart grids, traffic systems)  
