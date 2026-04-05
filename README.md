@@ -5,6 +5,7 @@
 This project implements and analyzes distributed multi-agent optimization algorithms in the context of DCOP (Distributed Constraint Optimization Problems).
 We simulate several well-known algorithms and evaluate their performance under different problem structures, focusing on the trade-off between exploration and exploitation.
 
+This was developed as part of a course on distributed systems and optimization. It focuses on decentralized decision-making and coordination between agents under constraints.
 ---
 
 ### Implemented Algorithms
@@ -52,4 +53,23 @@ Each problem varies in:
 
 ### Conclusions
 
-As detailed in the [project report](/Project Report - MAO.pdf)
+As detailed in the [project report](Project%20Report%20-%20MAO.pdf),
+
+- Sparse environments favor higher exploration (DSA performs best)
+- Dense environments benefit from coordinated algorithms (MGM, MGM-2)
+- Graph coloring emphasizes conflict resolution over optimization
+- Excessive exploration leads to instability and lack of convergence
+
+Results include:
+- Convergence graphs
+- Cost over iterations
+- Algorithm comparisons
+
+---
+
+## Contributors
+
+- Leah Rosen
+- [Lilach Yosef](https://github.com/LilachYosef)
+- [Ofri Ratinsky]()
+
