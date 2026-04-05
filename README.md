@@ -57,7 +57,7 @@ Each problem varies in:
 
 ---
 
-## 📈 Results & Insights
+## Results & Insights
 
 As detailed in the [project report](Project%20Report%20-%20MAO.pdf):
 
@@ -76,7 +76,7 @@ As detailed in the [project report](Project%20Report%20-%20MAO.pdf):
 ## Contributors
 - [Leah Rosen](https://github.com/leahrosen21)
 - [Lilach Yosef](https://github.com/LilachYosef)
-- Ofri Ratinsky
+- [Ofri Ratinsky](https://github.com/OfriRatinsky)
 
 ---
 
