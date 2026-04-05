@@ -16,19 +16,40 @@ We simulate several well-known algorithms and evaluate their performance under d
 ---
 ### Configurations
 
-The algorithms are evaluated on different environments:
+The algorithms are evaluated on different environments and problems.
 
-1. Sparse Random Graph  
-2. Dense Random Graph  
-3. Graph Coloring Problem  
+### Problem Types:
+
+### 1. Sparse Random Graph
+Low connectivity between agents, meaning fewer constraints and weaker dependencies.  
+This setting encourages parallel updates and favors exploration-based algorithms.
+
+---
+
+### 2. Dense Random Graph
+High connectivity creates strong dependencies between agents.  
+Effective solutions require coordination, making algorithms like MGM and MGM-2 more suitable.
+
+---
+
+### 3. Graph Coloring Problem
+Agents must choose values such that neighboring agents do not share the same assignment.  
+The objective is conflict minimization rather than complex optimization.
 
 Each problem varies in:
 - Agent connectivity
 - Constraint density
-- Domain size
+- Domain size - Number of valid assignments.
 
 | Problem Type         | Density (p) | Domain Size | Cost Function                          |
 |---------------------|------------|------------|----------------------------------------|
 | Sparse Random Graph | 0.25       | 5          | cᵢⱼ ∼ U(100, 200)                      |
 | Dense Random Graph  | 0.75       | 5          | cᵢⱼ ∼ U(100, 200)                      |
 | Graph Coloring      | 0.1        | 3          | cᵢⱼ = 0 if xᵢ ≠ xⱼ, else penalty cost  |
+
+
+---
+
+### Conclusions
+
+As detailed in the [project report](/Project Report - MAO.pdf)
